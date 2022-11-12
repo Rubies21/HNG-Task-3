@@ -7,10 +7,15 @@ import "../Popup.css"
 
 const Nav = () => {
   const [show, setShow] = useState(false);
-  
+  if (show==true){
+    document.body.style.backgroundColor = "rgba(64, 64, 64, 0.3)";
+  } else{
+    document.body.style.backgroundColor = 'white';
+  }
+
   return (
-    <body style={{ backgroundColor: show ? "rgba(64, 64, 64, 0.3)" : "#fff"}}>
-      <nav>
+    <div>
+      <nav >
        
         <img src ={houseImg} style={{position: 'absolute', top:'50%', transform:'translateY(-60%)'}}/>
         <div className = "links">
@@ -50,7 +55,7 @@ const Nav = () => {
       </div>
       </div>
   </div>
-  </body>
+  </div>
 
   )
 }

@@ -1,0 +1,26 @@
+header{
+    position: relative;
+    margin: auto;
+}
+
+#header-text{
+    position: absolute;
+    left: 313px;
+    top: 300px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.love{
+    position: absolute;
+width: 292px;
+height: 372px;
+left: 0px;
+top: 900px;
+
+background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+/* FADE */
+border: 1px solid #D7D7D7;
+border-radius: 15px;
+}

@@ -1,6 +1,7 @@
 .content{
     width: 85%;
     margin: auto;
+    display: flex;
 }
 
 .texts{
@@ -43,5 +44,35 @@ form button{
     color: #FFFFFF;
     font-weight: 400;
     font-size: 16px;
-    /* line-height: 19px; */
+}
+
+.images{
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    display: flex;
+    flex-wrap: wrap;   
+    width: 50%;
+    margin-top: 100px;
+}
+.top-footer{
+display: flex;
+flex-direction: row;
+justify-content:space-between;
+align-items: center;
+position: absolute;
+width: 100%;
+height: 70px;
+left: 0px;
+top: 742px;
+background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+
+}
+
+.smaller-div{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
 }
