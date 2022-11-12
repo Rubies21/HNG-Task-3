@@ -1,0 +1,107 @@
+body{
+    position: relative;
+}
+
+.card{
+    height: 326px;
+    width: 40%;
+    background-color: #fff;
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%);
+    border-radius: 16px;
+    margin-top: 100px;
+    visibility: hidden;
+  
+}
+
+.sub-card{
+    /* width: 90%; */
+    margin: auto;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 32px 14px 32px;
+    border-bottom: 1px solid #CFD8DC;
+}
+
+.top p{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+p#choose{
+    margin: 32px 0px 16px 32px;
+}
+
+.metamask{
+    width:90%;
+    margin: auto;
+    height: 68px;
+    border: 1px solid #CFD8DC;
+    background: #F8F9FA;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-meta{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    gap: 16px;
+}
+
+.sub-meta a{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.metamask .icon-angle-right{
+    padding: 15px 20px;
+}
+
+.wallet-con{
+    width:90%;
+    margin: auto;
+    height: 68px;
+    border: 1px solid #CFD8DC;
+    background: #F8F9FA;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.sub-wallet-con{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    gap: 16px;
+}
+
+.sub-wallet-con a{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.wallet-con .icon-angle-right{
+    padding: 15px 20px;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
