@@ -12,7 +12,7 @@ const Nav = () => {
     <body style={{ backgroundColor: show ? "rgba(64, 64, 64, 0.3)" : "#fff"}}>
       <nav>
        
-        <img src ={houseImg}/>
+        <img src ={houseImg} style={{position: 'absolute', top:'50%', transform:'translateY(-60%)'}}/>
         <div className = "links">
           <ul>
             <li><a href="#">Home</a></li>
@@ -21,7 +21,6 @@ const Nav = () => {
             <li><a href="#">Community</a></li>
           </ul>
         </div>
-       
         <button onClick={() => setShow(true)}>Connect Wallet </button>
       </nav>
       

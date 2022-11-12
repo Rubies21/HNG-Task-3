@@ -8,18 +8,21 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    position: relative;
 }
 
 .links ul{
-    display: flex;
-    align-items: center;
-  
+    display: flex;  
+    position: relative;
+    left: 60%;
+    transform: translateY(8%);
+    top: 50%;
+
 }
 
 .links li{
     list-style-type: none;
-    padding: 48px;
+    padding: 30px;
 
 }
 
