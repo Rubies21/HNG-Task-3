@@ -1,5 +1,6 @@
 body{
     position: relative;
+    height: 100vh;
 }
 nav{
     width: 85%;
@@ -12,6 +13,7 @@ nav{
 
 .links ul{
     display: flex;
+    align-items: center;
   
 }
 
