@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import { Link } from 'react-router-dom'
 import houseImg from "../.././assets/houseImg.svg"
 import metamask from "../../assets/metamask.svg"
 import wallet from "../../assets/walletcon.svg"
@@ -20,8 +21,8 @@ const Nav = () => {
         <img src ={houseImg} style={{position: 'absolute', top:'50%', transform:'translateY(-60%)'}}/>
         <div className = "links">
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Place to stay</a></li>
+            <li><Link to ="/"><a>Home</a></Link> </li>
+            <li><Link to ="/place"><a>Place to stay</a></Link></li>
             <li><a href="#">NFTs</a></li>
             <li><a href="#">Community</a></li>
           </ul>

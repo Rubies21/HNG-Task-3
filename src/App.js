@@ -1,16 +1,19 @@
 import React from 'react'
-import Nav from "./Components/Nav/Nav"
-import FirstMain from './Components/FirstMain/FirstMain'
-import SecondMain from './Components/SecondMain/SecondMain'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./Home"
+import PlaceToStay from './Components/PlaceToStay/PlaceToStay';
+import Nav from './Components/Nav/Nav';
 
-import "./App.css"
-
-const App = () => {
+function App() {
   return (
     <div>
-      <Nav/>
-      <FirstMain/>
-      <SecondMain/>
+       <Router>
+        <Nav></Nav>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/place" element={<PlaceToStay />} />
+        </Routes>
+      </Router>
     </div>
   )
 }
