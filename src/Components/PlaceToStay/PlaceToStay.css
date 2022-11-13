@@ -9,7 +9,7 @@
     margin-left: -5%;
 }
 
-ul{
+.naul{
     display: flex;
 }
 
@@ -30,6 +30,7 @@ li{
 
 .images{
 height: 372px;
+width: 292px;
 background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
 border: 1px solid #D7D7D7;
 border-radius: 15px;
@@ -54,8 +55,8 @@ border-radius: 15px;
 
 .divv{
     display: flex;
-    gap: 20px;
-    margin-top: -80px;
+    gap: 30px;
+    margin-top: -70px;
 }
 
 .places{

@@ -1,0 +1,27 @@
+.footer{
+    background: #1D1D1E;
+}
+
+.sub-footer{
+    display: flex;
+    width: 85%;
+    margin: auto;
+}
+
+.sub-footer li{
+    list-style-type: none;
+}
+
+.sub-footer ul{
+
+    padding: 0px;
+}
+
+.media{
+    display: flex;
+}
+
+.sub-footer li a{
+    color: black;
+    line-height: 0px;
+}
