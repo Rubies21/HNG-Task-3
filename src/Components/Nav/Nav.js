@@ -8,7 +8,7 @@ import "../Popup.css"
 
 const Nav = () => {
   const [show, setShow] = useState(false);
-  if (show==true){
+  if (show===true){
     document.body.style.backgroundColor = "rgba(64, 64, 64, 0.3)";
   } else{
     document.body.style.backgroundColor = 'white';
@@ -18,13 +18,13 @@ const Nav = () => {
     <div>
       {/* style={{position: 'absolute', top:'50%', transform:'translateY(-60%)'}} */}
       <nav >
-        <img src ={houseImg} className='logo'/>
+        <img src ={houseImg} className='logo' alt=""/>
         <div className = "links">
           <ul>
-            <li><Link to ="/"><a>Home</a></Link> </li>
-            <li><Link to ="/place"><a>Place to stay</a></Link></li>
-            <li><a href="#">NFTs</a></li>
-            <li><a href="#">Community</a></li>
+            <li><Link to ="/">Home</Link> </li>
+            <li><Link to ="/place">Place to stay</Link></li>
+            <li><a href="https://opensea.io">NFTs</a></li>
+            <li><a href="https://google.com">Community</a></li>
           </ul>
           <button onClick={() => setShow(true)}>Connect Wallet </button>
         </div>
@@ -35,24 +35,24 @@ const Nav = () => {
       <div className="sub-card">
       <div className ="top">
         <p>Connect Wallet</p>
-        <i class="icon-remove" onClick={() => setShow(false)}></i> 
+        <i className="icon-remove" onClick={() => setShow(false)}></i> 
       </div>
       <p id="choose"> Choose preferred wallet</p>
       <div className="metamask">
         <div className="sub-meta">
-          <img src={metamask}/>
-          <a href="#">Metamask</a>
+          <img src={metamask} alt=""/>
+          <a href="https://metamask.com">Metamask</a>
         </div>
-        <i class="icon-angle-right icon-2x"></i>
+        <i className="icon-angle-right icon-2x"></i>
         
       </div>
 
       <div className="wallet-con">
         <div className="sub-wallet-con">
-          <img src={wallet}/>
-          <a href="#">Wallet Connect</a>
+          <img src={wallet} alt=""/>
+          <a href="metamask.com">Wallet Connect</a>
         </div>
-        <i class="icon-angle-right icon-2x"></i>
+        <i className="icon-angle-right icon-2x"></i>
         
       </div>
       </div>

@@ -1,5 +1,4 @@
 import React from 'react'
-import "../Images/Images.js"
 import "./PlaceToStay.css"
 import slider from "../../assets/slider.svg"
 import Images from '../Images/Images.js'
@@ -25,16 +24,17 @@ const PlaceToStay = () => {
   return (
     <div className='overall'>
       <div className="wrapping-div">
-      <div className="nav2">
-        <ul className='locations'>
-          <li><a href="#">Restaurant</a></li>
-          <li><a href="#">Cottage</a></li>
-          <li><a href="#">Castle</a></li>
-          <li><a href="#">fantast city</a></li>
-          <li><a href="#">beach</a></li>
-          <li><a href="#">Carbins</a></li>
-          <li><a href="#">Off-grid</a></li>
-          <li><a href="#">Farm</a></li>
+      <div className="nav2" >
+        <ul className='thing'>
+          <li>Restaurant</li>
+          <li>Cottage</li>
+          <li>Castle</li>
+          <li>fantast city</li>
+          <li>beach</li>
+          <li>Cabins</li>
+          <li>Off-grid</li>
+          <li>Farms</li>
+
         </ul>
         
         <button className='this-button'> Location

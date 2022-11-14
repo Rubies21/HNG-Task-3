@@ -5,19 +5,19 @@
 .nav2{
     display: flex;
     align-items: center;
-    margin-left: -5%;
+    /* margin-left: -5%; */
 }
 
-.locations{
+.nav2 ul{
     display: flex;
 }
 
-.locations li{
+.thing li{
     list-style-type:none;
     padding: 40px;
 }
 
-.locations li a{
+.thing li a{
     color: black;
     text-decoration: none;
 }

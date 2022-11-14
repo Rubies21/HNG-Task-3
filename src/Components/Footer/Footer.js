@@ -13,38 +13,38 @@ const Footer = () => {
             <div className='logo'>
                 <img src={logo} alt="" style={{paddingTop:'30px'}}/>
                 <div className='media'>
-                    <img src={facebook}  />
-                    <img src={instagram} style ={{paddingLeft: '20px'}} />
-                    <img src={twitter} style ={{paddingLeft: '20px'}} />
+                    <img src={facebook} alt="" />
+                    <img src={instagram} style ={{paddingLeft: '20px'}} alt=""/>
+                    <img src={twitter} style ={{paddingLeft: '20px'}} alt=""/>
                 </div>
                 <p style ={{paddingTop:'0px'}}>&copy; 2022 Metabnb</p>
             </div>
 
             <div className='community'>
                 <ul>
-                    <li style={{fontWeight:'700', fontSize:'18px', lineHeight:'22px'}}> <a href="#">Community</a> </li>
-                    <li> <a href="#">NFT</a> </li>
-                    <li> <a href="#">Tokens</a> </li>
-                    <li> <a href="#">Landlords</a> </li>
-                    <li> <a href="#">Discord</a> </li>
+                    <li style={{fontWeight:'700', fontSize:'18px', lineHeight:'22px'}}> <a href="https://opensea.io">Community</a> </li>
+                    <li> <a href="https://opensea.io">NFT</a> </li>
+                    <li> <a href="https://opensea.io">Tokens</a> </li>
+                    <li> <a href="https:landlord.com">Landlords</a> </li>
+                    <li> <a href="https://discord.com">Discord</a> </li>
                 </ul>
             </div>
             <div className='venues'>
                 <ul>
-                    <li style={{fontWeight:'700', fontSize:'18px', lineHeight:'22px'}}> <a href="#">Places</a> </li>
-                    <li> <a href="#">Castle</a> </li>
-                    <li> <a href="#">Farms</a> </li>
-                    <li> <a href="#">Beach</a> </li>
-                    <li> <a href="#">Learn more</a> </li>
+                    <li style={{fontWeight:'700', fontSize:'18px', lineHeight:'22px'}}> <a href="https://opensea.io">Places</a> </li>
+                    <li> <a href="https://opensea.io">Castle</a> </li>
+                    <li> <a href="https://opensea.io">Farms</a> </li>
+                    <li> <a href="https://opensea.io">Beach</a> </li>
+                    <li> <a href="https://opensea.io">Learn more</a> </li>
                 </ul>
             </div>
             <div className='about'>
                 <ul>
-                    <li style={{fontWeight:'700', fontSize:'18px', lineHeight:'22px'}}> <a href="#">About us</a> </li>
-                    <li> <a href="#">Road map</a> </li>
-                    <li> <a href="#">Creators</a> </li>
-                    <li> <a href="#">Career</a> </li>
-                    <li> <a href="#">Contact us</a> </li>
+                    <li style={{fontWeight:'700', fontSize:'18px', lineHeight:'22px'}}> <a href="https://opensea.io">About us</a> </li>
+                    <li> <a href="https://opensea.io">Road map</a> </li>
+                    <li> <a href="https://opensea.io">Creators</a> </li>
+                    <li> <a href="https://opensea.io">Career</a> </li>
+                    <li> <a href="https://opensea.io">Contact us</a> </li>
                 </ul>
             </div>
         </div>
