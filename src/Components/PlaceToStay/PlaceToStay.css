@@ -19,13 +19,12 @@
 }
 
 .this-button{
-    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+    background: white;
     border: 1px solid #B4B4B4;
     border-radius: 8px;
-    padding:10px 30px 10px 30px;
+    padding:10px 10px 10px 10px;
     display: flex;
-    position: relative;
-    text-align:center;
+    gap:30px;
 }
 
 .images{
