@@ -1,9 +1,9 @@
 import React from 'react'
 import './Footer.css'
-import meta from '../../assets/meta.svg'
 import facebook from '../../assets/facebook.svg'
 import instagram from '../../assets/instagram.svg'
 import twitter from '../../assets/twitter.svg'
+import logo from '../../assets/logo.svg'
 
 
 const Footer = () => {
@@ -11,27 +11,27 @@ const Footer = () => {
     <div className='footer'>
         <div className="sub-footer">
             <div className='logo'>
-                <img src={meta} alt="" />
+                <img src={logo} alt="" style={{paddingTop:'30px'}}/>
                 <div className='media'>
-                    <img src={facebook} alt="" />
-                    <img src={instagram} alt="" />
-                    <img src={twitter} alt="" />
+                    <img src={facebook}  />
+                    <img src={instagram} style ={{paddingLeft: '20px'}} />
+                    <img src={twitter} style ={{paddingLeft: '20px'}} />
                 </div>
-                <p>&copy; 2022 Metabnb</p>
+                <p style ={{paddingTop:'0px'}}>&copy; 2022 Metabnb</p>
             </div>
 
             <div className='community'>
                 <ul>
-                    <li> <a href="#">Community</a> </li>
+                    <li style={{fontWeight:'700', fontSize:'18px', lineHeight:'22px'}}> <a href="#">Community</a> </li>
                     <li> <a href="#">NFT</a> </li>
                     <li> <a href="#">Tokens</a> </li>
                     <li> <a href="#">Landlords</a> </li>
                     <li> <a href="#">Discord</a> </li>
                 </ul>
             </div>
-            <div className='places'>
+            <div className='venues'>
                 <ul>
-                    <li> <a href="#">Places</a> </li>
+                    <li style={{fontWeight:'700', fontSize:'18px', lineHeight:'22px'}}> <a href="#">Places</a> </li>
                     <li> <a href="#">Castle</a> </li>
                     <li> <a href="#">Farms</a> </li>
                     <li> <a href="#">Beach</a> </li>
@@ -40,7 +40,7 @@ const Footer = () => {
             </div>
             <div className='about'>
                 <ul>
-                    <li> <a href="#">About us</a> </li>
+                    <li style={{fontWeight:'700', fontSize:'18px', lineHeight:'22px'}}> <a href="#">About us</a> </li>
                     <li> <a href="#">Road map</a> </li>
                     <li> <a href="#">Creators</a> </li>
                     <li> <a href="#">Career</a> </li>

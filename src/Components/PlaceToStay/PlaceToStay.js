@@ -25,7 +25,7 @@ const PlaceToStay = () => {
     <div className='overall'>
       <div className="wrapping-div">
       <div className="nav2">
-        <ul >
+        <ul className='locations'>
           <li>Restaurant</li>
           <li>Cottage</li>
           <li>Castle</li>

@@ -1,27 +1,41 @@
 .footer{
     background: #1D1D1E;
+    /* padding-top: 50px; */
 }
 
 .sub-footer{
     display: flex;
-    width: 85%;
+    width: 80%;
     margin: auto;
+    align-items: center;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    color: white;
 }
 
 .sub-footer li{
     list-style-type: none;
+    font-weight: 400;
+
 }
 
 .sub-footer ul{
 
-    padding: 0px;
+    padding-top: 0px;
 }
 
 .media{
     display: flex;
+    padding: 70px 0px 50px 0px;
 }
 
 .sub-footer li a{
-    color: black;
-    line-height: 0px;
+    color:white;
+    line-height: 35px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
