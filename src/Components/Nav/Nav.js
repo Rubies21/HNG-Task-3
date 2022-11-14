@@ -16,9 +16,9 @@ const Nav = () => {
 
   return (
     <div>
+      {/* style={{position: 'absolute', top:'50%', transform:'translateY(-60%)'}} */}
       <nav >
-       
-        <img src ={houseImg} style={{position: 'absolute', top:'50%', transform:'translateY(-60%)'}}/>
+        <img src ={houseImg} className='logo'/>
         <div className = "links">
           <ul>
             <li><Link to ="/"><a>Home</a></Link> </li>
@@ -26,8 +26,9 @@ const Nav = () => {
             <li><a href="#">NFTs</a></li>
             <li><a href="#">Community</a></li>
           </ul>
+          <button onClick={() => setShow(true)}>Connect Wallet </button>
         </div>
-        <button onClick={() => setShow(true)}>Connect Wallet </button>
+        
       </nav>
       
       <div className='card' style= {{visibility: show ? 'visible' : 'hidden'}}>

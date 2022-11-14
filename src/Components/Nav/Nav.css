@@ -1,23 +1,18 @@
-body{
-    position: relative;
-
-}
 nav{
-    width: 85%;
-    margin:auto;
+    padding: 30px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+}
+
+.links{
+    display: flex;
+    align-items: center;
 }
 
 .links ul{
     display: flex;  
-    position: relative;
-    left: 60%;
-    transform: translateY(8%);
-    top: 50%;
-
+    transform: translateX(-30%);
 }
 
 .links li{
@@ -42,3 +37,39 @@ nav button{
     color: #fff;
     font-weight: 400;
 }
+
+/* Responsiveness */
+/* @media(max-width: 750px){
+    
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo{
+        padding-top: 50px;
+        align-items: center;
+
+    }
+    .links{
+        padding-top: 20px;
+        margin: auto;
+        align-items: center;
+        left: 0%;
+    }
+
+    .links ul{
+        transform: translateX(0%);
+    }
+
+    .links li{
+        padding: 5px;
+    }
+
+    nav button{
+       margin-left: 20px;
+    }
+
+} */
+

@@ -1,6 +1,5 @@
 .content{
-    width: 85%;
-    margin: auto;
+    padding: 0px 100px;
     display: flex;
     justify-content: space-between;
 }
@@ -74,4 +73,43 @@ background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
     flex-direction: row;
     justify-content:space-between;
     align-items: center;
+}
+
+@media(max-width: 750px){
+    *, ::after,::before{
+        width: 100%;
+    }
+
+    .content{
+        display: block;
+        margin: 0;
+        width: 100%;
+
+    }
+
+    p.title-text{
+        font-size: 48px;
+        line-height: 50px;
+
+       
+    }
+
+    .body-text{
+        font-size: 24px;
+        line-height: 35px;
+        color: #434343;
+
+    }
+
+    .texts{
+        display: block;
+        width: 100%;
+        padding: 100px 0px 50px 0px; 
+        margin: auto;
+    }
+
+    input[type="text"]{
+        width: 80%;
+        margin: auto;
+}
 }
