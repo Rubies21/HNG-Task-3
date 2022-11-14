@@ -7,7 +7,7 @@ import "./App.css"
 const Home = () => {
   return (
     <div>
-      <FirstMain/>
+      <FirstMain/> 
       <SecondMain/>
     </div>
   )

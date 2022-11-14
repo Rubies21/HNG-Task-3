@@ -18,15 +18,10 @@ const FirstMain = () => {
         <p className="body-text">We provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone</p>
         <form>
           <input type="text" placeholder='Search for location' className='search' style={{height: '54px'}}/>
-          <button>Search</button>
+          <button>Search</button> 
         </form>
         </div>
-        <div className="images">
-          <img src={image1} alt="" />
-          <img src={image3} alt="" style={{marginTop: '-200px'}} />
-          <img src={image2} alt="" style={{marginTop: '-80px'}}/>
-          <img src={image4} alt="" style={{marginTop: '-280px'}}/>
-        </div>
+
       </div>
       <div className="top-footer">
         <div className="smaller-div">
