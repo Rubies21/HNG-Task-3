@@ -30,10 +30,10 @@ const Nav = () => {
               <Link to="/place">Place to stay</Link>
             </li>
             <li>
-              <a href="https://opensea.io">NFTs</a>
+              <a href="#">NFTs</a>
             </li>
             <li>
-              <a href="https://google.com">Community</a>
+              <a href="#">Community</a>
             </li>
           </ul>
         </div>
@@ -50,7 +50,7 @@ const Nav = () => {
           <div className="metamask">
             <div className="sub-meta">
               <img src={metamask} alt="" className="icon" />
-              <a href="https://metamask.com">Metamask</a>
+              <a href="#">Metamask</a>
             </div>
             <i className="icon-angle-right icon-2x"></i>
           </div>
@@ -58,7 +58,7 @@ const Nav = () => {
           <div className="wallet-con">
             <div className="sub-wallet-con">
               <img src={wallet} alt="" className="icon" />
-              <a href="metamask.com">Wallet Connect</a>
+              <a href="#">Wallet Connect</a>
             </div>
             <i className="icon-angle-right icon-2x"></i>
           </div>

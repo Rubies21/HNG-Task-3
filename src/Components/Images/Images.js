@@ -16,7 +16,7 @@ const Images = (props) => {
           <p>2345km away</p>
           <p>available for 2 weeks stay</p>
         </span>
-        <img src={stars} alt="" />
+        <img src={stars} alt="" style={{width:'92px', height:'12px', float:'left'}}/>
       </div>
     </div>
   );
