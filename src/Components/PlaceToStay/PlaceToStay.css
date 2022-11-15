@@ -1,75 +1,74 @@
-.overall{
-    padding: 0px 100px;
+.overall {
+  max-width: 1200px;
+  width: 92%;
+  margin: 0 auto;
 }
 
-.nav2{
-    display: flex;
-    align-items: center;
-    /* margin-left: -5%; */
+.places {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  column-gap: 20px;
+  row-gap: 20px;
+  padding: 100px 0;
 }
 
-.nav2 ul{
-    display: flex;
+.nav2 {
+  display: flex;
+  align-items: center;
 }
 
-.thing li{
-    list-style-type:none;
-    padding: 40px;
+.nav2 ul {
+  display: flex;
 }
 
-.thing li a{
-    color: black;
-    text-decoration: none;
+.thing li {
+  list-style-type: none;
+  padding: 40px;
 }
 
-.this-button{
-    background: white;
-    border: 1px solid #B4B4B4;
-    border-radius: 8px;
-    padding:5px 10px 5px 10px;
-    display: flex;
-    gap:30px;
+.thing li a {
+  color: black;
+  text-decoration: none;
 }
 
-.images{
-padding-top: 10px;
-width: 292px;
-background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
-border: 1px solid #D7D7D7;
-border-radius: 15px;
+.this-button {
+  background: white;
+  border: 1px solid #b4b4b4;
+  border-radius: 8px;
+  padding: 5px 10px 5px 10px;
+  display: flex;
+  gap: 30px;
 }
 
-.the_place{
-    margin: auto;
-    width: 90%;
+.images {
+  padding: 10px;
+  width: 100%;
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  border: 1px solid #d7d7d7;
+  border-radius: 15px;
+  margin: 0 auto;
 }
 
-.line1{
-    display: flex;
-    justify-content: space-between;
+.the_place img {
+  width: 100%;
 }
 
-.line2{
-        display: flex;
-        justify-content: space-between;
-        font-size: 12px;
+.line1 {
+  display: flex;
+  justify-content: space-between;
 }
 
-.divv{
-    display: flex;
-    gap: 30px;
-    margin-top: -70px;
+.line2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
 }
 
-.places{
-    display: flex;  
-    flex-wrap: wrap;
-    gap:0px;
-    margin-top: -100px;
-    margin: auto;
-    padding-bottom: 100px;
+.divv {
+  display: flex;
+  gap: 30px;
 }
 
-.logo{
-    padding-top: 30;
+.logo {
+  padding-top: 30;
 }
