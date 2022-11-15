@@ -5,3 +5,7 @@
     margin: 0;
     font-family: 'Red Rose', cursive;
 }
+
+body{
+    min-width: 1060px;
+}

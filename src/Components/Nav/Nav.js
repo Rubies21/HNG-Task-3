@@ -40,7 +40,7 @@ const Nav = () => {
       <p id="choose"> Choose preferred wallet</p>
       <div className="metamask">
         <div className="sub-meta">
-          <img src={metamask} alt=""/>
+          <img src={metamask} alt="" className='icon'/>
           <a href="https://metamask.com">Metamask</a>
         </div>
         <i className="icon-angle-right icon-2x"></i>
@@ -49,7 +49,7 @@ const Nav = () => {
 
       <div className="wallet-con">
         <div className="sub-wallet-con">
-          <img src={wallet} alt=""/>
+          <img src={wallet} alt="" className='icon'/>
           <a href="metamask.com">Wallet Connect</a>
         </div>
         <i className="icon-angle-right icon-2x"></i>

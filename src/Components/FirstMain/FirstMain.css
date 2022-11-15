@@ -112,4 +112,8 @@ background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
         width: 80%;
         margin: auto;
 }
+
+    .house-group{
+        padding-bottom:50px;
+    }
 }

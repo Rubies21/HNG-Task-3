@@ -39,7 +39,7 @@ nav button{
 }
 
 /* Responsiveness */
-/* @media(max-width: 750px){
+@media(max-width: 750px){
     
     nav{
         display: flex;
@@ -71,5 +71,9 @@ nav button{
        margin-left: 20px;
     }
 
-} */
+    .icon{
+        width: 42px;
+        height: 42px;
+    }
 
+} 

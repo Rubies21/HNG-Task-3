@@ -6,7 +6,9 @@ header{
     font-weight: 700;
     font-size: 48px;
     line-height: 60px;
-    padding: 30px 300px;
+    padding-top: 30px;
+    margin:auto;
+    width: 60%;
 }
 
 .image-places{

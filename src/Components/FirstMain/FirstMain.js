@@ -19,7 +19,7 @@ const FirstMain = () => {
         </form>
         </div>
 
-        <img src={houseGroup} alt=""/>
+        <img src={houseGroup} alt="" className='house-group'/>
 
       </div>
       <div className="top-footer">
